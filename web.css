@@ -1,0 +1,153 @@
+.headerPart {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.menu nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 55px;
+}
+.menu nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu nav ul li a:hover{
+    color: red;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+}
+.left{
+    margin: 0 auto;
+}
+.right a{
+    text-decoration: none;
+}
+.visitBttn button{
+    display: flex;
+    align-items: center;
+    border-radius: 29px;
+    border-style: none;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    padding: 4px 4px;
+
+}
+.visitBttn button a{
+    color: white;
+}
+.icon{
+    background-color: orange;
+    border-radius: 19px;
+    padding: 3px;
+    color: white;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.visit{
+    background-color: black;
+    display: flex;
+    border-radius: 19px;
+    align-items: center;
+}
+.visit a{
+    color: white;
+    gap: 1px;
+    padding: 3px;
+}
+.container{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+.photo{
+   background-color: white;
+   width: 520px;
+   height: 550px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.miamiVilla img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 19px;
+    padding-bottom: 13px;
+}
+.price{
+    position: absolute;
+    right: 10px;
+    color: rgb(205, 135, 5);
+}
+.name{
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.name span{
+    font-size: 20px;
+    font-style: ;
+
+}
+.information{
+    /* display: flex;
+    flex-direction: column; */
+    padding-top: 30px;
+}
+.bttn{
+    background-color: black;
+    width: 200px;
+    border-radius: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.bttn a{
+    color: white;
+    text-decoration: none;
+}
+.info div:nth-child(3){
+   display: flex;
+   justify-content: center;
+   padding: 15px;
+}
+.first_info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.second_info{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.about{
+    position: relative;
+    width: 100%;
+    
+}
+.miamiVilla span{
+    color: black;
+    background-color: rgb(253, 166, 166);
+    border-radius: 4px;
+    text-align: center;
+    padding: 3px;
+    position: absolute;
+    
+}
+
+
+
